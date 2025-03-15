@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>User Profile</title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <img src="user-icon.png" alt="User Icon" class="user-icon">
+            <h1>Welcome <span id="user-name">Name of User</span></h1>
+        </div>
+        <form class="profile-form">
+            <label>Name: <input type="text" name="name"></label>
+            <label>Contact: <input type="text" name="contact"></label>
+            <label>Email: <input type="email" name="email"></label>
+            <label>Password: <input type="password" name="password"></label>
+            <div class="button-container">
+                <button type="button" class="temp-delete">Temporarily Delete Account</button><br>
+                <button type="button" class="perm-delete">Permanently Delete Account</button><br>
+                <button type="button" class="logout">Log Out</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

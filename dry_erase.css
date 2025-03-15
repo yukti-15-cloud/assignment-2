@@ -1,0 +1,33 @@
+body {
+    background-color: #D1E7DD; /* Light green background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #FFF; /* White background for the content */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: #33691E; /* Dark green */
+    text-align: center;
+}
+
+h2 {
+    color: #4A4A4A; /* Darker gray for subtitles */
+}
+
+ul, ol {
+    margin: 10px 0 20px 20px;
+}
+
+p {
+    line-height: 1.5;
+    color: #555;
+}

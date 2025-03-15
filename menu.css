@@ -1,0 +1,38 @@
+body {
+    background-color: #d9eab0; /* Light green background */
+    font-family: Arial, sans-serif;
+}
+
+.menu-container {
+    background-color: #d2f0c4; /* Light green for menu */
+    border: 2px solid #f09; /* Pink border */
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    margin: 50px auto; /* Center the menu */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.menu-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+.menu-list li {
+    margin: 10px 0; /* Space between items */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.menu-list li:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.menu-description {
+    margin-top: 20px;
+    font-size: 12px; /* Smaller text for description */
+    color: #555; /* Darker text color */
+}
+
+.icon {
+    font-size: 14px; /* Icon size */
+}

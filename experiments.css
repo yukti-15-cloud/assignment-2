@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d2f4d1; /* Lighter green background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.item {
+    margin: 15px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adds some rounded corners */
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Darker text for contrast */
+}
